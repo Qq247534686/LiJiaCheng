@@ -78,8 +78,8 @@ D:\LiJiaCheng\LiJiaCheng\WeiXin\bin\Debug\System.Web.Razor.xml
 D:\LiJiaCheng\LiJiaCheng\WeiXin\bin\Debug\System.Web.WebPages.xml
 D:\LiJiaCheng\LiJiaCheng\WeiXin\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\LiJiaCheng\LiJiaCheng\WeiXin\bin\Debug\System.Web.WebPages.Razor.xml
-D:\LiJiaCheng\LiJiaCheng\WeiXin\obj\Debug\WeiXin.csprojAssemblyReference.cache
 D:\LiJiaCheng\LiJiaCheng\WeiXin\obj\Debug\WeiXin.csproj.CoreCompileInputs.cache
 D:\LiJiaCheng\LiJiaCheng\WeiXin\obj\Debug\WeiXin.csproj.CopyComplete
 D:\LiJiaCheng\LiJiaCheng\WeiXin\obj\Debug\WeiXin.exe
 D:\LiJiaCheng\LiJiaCheng\WeiXin\obj\Debug\WeiXin.pdb
+D:\LiJiaCheng\LiJiaCheng\WeiXin\obj\Debug\WeiXin.csprojAssemblyReference.cache

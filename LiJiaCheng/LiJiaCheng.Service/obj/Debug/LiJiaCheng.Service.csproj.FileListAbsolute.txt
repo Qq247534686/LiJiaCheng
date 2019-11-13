@@ -5,7 +5,6 @@ C:\Users\24753\Source\Repos\LiJiaCheng\LiJiaCheng.Service\obj\Debug\LiJiaCheng.S
 C:\Users\24753\Source\Repos\LiJiaCheng\LiJiaCheng.Service\obj\Debug\LiJiaCheng.Service.pdb
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Service\bin\Debug\LiJiaCheng.Service.dll
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Service\bin\Debug\LiJiaCheng.Service.pdb
-D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Service\obj\Debug\LiJiaCheng.Service.csprojAssemblyReference.cache
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Service\obj\Debug\LiJiaCheng.Service.csproj.CoreCompileInputs.cache
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Service\obj\Debug\LiJiaCheng.Service.dll
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Service\obj\Debug\LiJiaCheng.Service.pdb

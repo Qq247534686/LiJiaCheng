@@ -270,8 +270,8 @@ D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Code\bin\Debug\System.Numerics.Vectors.xml
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Code\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Code\bin\Debug\System.Threading.Channels.xml
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Code\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Code\obj\Debug\LiJiaCheng.Code.csprojAssemblyReference.cache
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Code\obj\Debug\LiJiaCheng.Code.csproj.CoreCompileInputs.cache
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Code\obj\Debug\LiJiaCheng.Code.csproj.CopyComplete
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Code\obj\Debug\LiJiaCheng.Code.dll
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Code\obj\Debug\LiJiaCheng.Code.pdb
+D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Code\obj\Debug\LiJiaCheng.Code.csprojAssemblyReference.cache

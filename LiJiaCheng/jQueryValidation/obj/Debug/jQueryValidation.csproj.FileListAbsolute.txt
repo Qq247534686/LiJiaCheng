@@ -146,8 +146,8 @@ D:\LiJiaCheng\LiJiaCheng\jQueryValidation\bin\zh-Hans\System.Web.Webpages.Deploy
 D:\LiJiaCheng\LiJiaCheng\jQueryValidation\bin\zh-Hans\System.Web.Webpages.Razor.resources.dll
 D:\LiJiaCheng\LiJiaCheng\jQueryValidation\bin\zh-Hans\System.Web.Helpers.resources.dll
 D:\LiJiaCheng\LiJiaCheng\jQueryValidation\bin\zh-Hans\System.Web.Mvc.resources.dll
-D:\LiJiaCheng\LiJiaCheng\jQueryValidation\obj\Debug\jQueryValidation.csprojAssemblyReference.cache
 D:\LiJiaCheng\LiJiaCheng\jQueryValidation\obj\Debug\jQueryValidation.csproj.CoreCompileInputs.cache
 D:\LiJiaCheng\LiJiaCheng\jQueryValidation\obj\Debug\jQueryValidation.csproj.CopyComplete
 D:\LiJiaCheng\LiJiaCheng\jQueryValidation\obj\Debug\jQueryValidation.dll
 D:\LiJiaCheng\LiJiaCheng\jQueryValidation\obj\Debug\jQueryValidation.pdb
+D:\LiJiaCheng\LiJiaCheng\jQueryValidation\obj\Debug\jQueryValidation.csprojAssemblyReference.cache

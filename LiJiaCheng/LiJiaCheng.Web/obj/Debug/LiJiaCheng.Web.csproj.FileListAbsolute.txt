@@ -220,8 +220,8 @@ D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Web\bin\zh-Hans\System.Web.WebPages.Razor.re
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Web\bin\zh-Hans\System.Web.Http.resources.dll
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
-D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Web\obj\Debug\LiJiaCheng.Web.csprojAssemblyReference.cache
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Web\obj\Debug\LiJiaCheng.Web.csproj.CoreCompileInputs.cache
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Web\obj\Debug\LiJiaCheng.Web.csproj.CopyComplete
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Web\obj\Debug\LiJiaCheng.Web.dll
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Web\obj\Debug\LiJiaCheng.Web.pdb
+D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Web\obj\Debug\LiJiaCheng.Web.csprojAssemblyReference.cache

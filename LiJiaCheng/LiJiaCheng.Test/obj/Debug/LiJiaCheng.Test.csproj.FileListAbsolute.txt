@@ -26,8 +26,8 @@ D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Test\bin\Debug\Microsoft.VisualStudio.TestPl
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Test\obj\Debug\LiJiaCheng.Test.csprojAssemblyReference.cache
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Test\obj\Debug\LiJiaCheng.Test.csproj.CoreCompileInputs.cache
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Test\obj\Debug\LiJiaCheng.Test.csproj.CopyComplete
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Test\obj\Debug\LiJiaCheng.Test.dll
 D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Test\obj\Debug\LiJiaCheng.Test.pdb
+D:\LiJiaCheng\LiJiaCheng\LiJiaCheng.Test\obj\Debug\LiJiaCheng.Test.csprojAssemblyReference.cache

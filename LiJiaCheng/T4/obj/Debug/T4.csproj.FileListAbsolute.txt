@@ -1,0 +1,12 @@
+D:\LiJiaCheng\LiJiaCheng\T4\bin\Debug\T4.exe.config
+D:\LiJiaCheng\LiJiaCheng\T4\bin\Debug\T4.exe
+D:\LiJiaCheng\LiJiaCheng\T4\bin\Debug\T4.pdb
+D:\LiJiaCheng\LiJiaCheng\T4\bin\Debug\EntityFramework.dll
+D:\LiJiaCheng\LiJiaCheng\T4\bin\Debug\EntityFramework.SqlServer.dll
+D:\LiJiaCheng\LiJiaCheng\T4\bin\Debug\EntityFramework.xml
+D:\LiJiaCheng\LiJiaCheng\T4\bin\Debug\EntityFramework.SqlServer.xml
+D:\LiJiaCheng\LiJiaCheng\T4\obj\Debug\T4.csprojAssemblyReference.cache
+D:\LiJiaCheng\LiJiaCheng\T4\obj\Debug\T4.csproj.CoreCompileInputs.cache
+D:\LiJiaCheng\LiJiaCheng\T4\obj\Debug\T4.csproj.CopyComplete
+D:\LiJiaCheng\LiJiaCheng\T4\obj\Debug\T4.exe
+D:\LiJiaCheng\LiJiaCheng\T4\obj\Debug\T4.pdb

@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ServiceStack.Logging.Serilog</name>
+    </assembly>
+    <members>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogExtensions.ForContext(ServiceStack.Logging.ILog,System.Type)">
+            <summary>
+            Create a logger that marks log events as being from the specified
+            source type.
+            </summary>
+            <param name="logger">The logger</param>
+            <param name="source">Type generating log messages in the context.</param>
+            <returns>A logger that will enrich log events as specified.</returns>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogExtensions.ForContext``1(ServiceStack.Logging.ILog)">
+            <summary>
+            Create a logger that marks log events as being from the specified
+            source type.
+            </summary>
+            <typeparam name="TSource">Type generating log messages in the context.</typeparam>
+            <returns>A logger that will enrich log events as specified.</returns>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogExtensions.ForContext(ServiceStack.Logging.ILog,Serilog.Core.ILogEventEnricher)">
+            <summary>
+            Create a logger that enriches log events via the provided enrichers.
+            </summary>
+            <param name="logger">The logger</param>
+            <param name="enricher">Enricher that applies in the context.</param>
+            <returns>A logger that will enrich log events as specified.</returns>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogExtensions.ForContext(ServiceStack.Logging.ILog,System.Collections.Generic.IEnumerable{Serilog.Core.ILogEventEnricher})">
+            <summary>
+            Create a logger that enriches log events via the provided enrichers.
+            </summary>
+            <param name="logger">The logger</param>
+            <param name="enrichers">Enrichers that apply in the context.</param>
+            <returns>A logger that will enrich log events as specified.</returns>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogExtensions.ForContext(ServiceStack.Logging.ILog,System.String,System.Object,System.Boolean)">
+            <summary>
+            Create a logger that enriches log events with the specified property.
+            </summary>
+            <param name="logger">The logger</param>
+            <param name="propertyName">The name of the property. Must be non-empty.</param>
+            <param name="value">The property value.</param>
+            <param name="destructureObjects">If true, the value will be serialized as a structured
+            object if possible; if false, the object will be recorded as a scalar or simple array.</param>
+            <returns>A logger that will enrich log events as specified.</returns>
+        </member>
+        <member name="T:ServiceStack.Logging.Serilog.SerilogFactory">
+            <summary>
+            Implementation of <see cref="T:ServiceStack.Logging.ILogFactory"/> that creates a <see cref="N:ServiceStack.Logging.Serilog"/> <see cref="T:ServiceStack.Logging.ILog"/> Logger.
+            </summary>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogFactory.GetLogger(System.Type)">
+            <summary>
+            Gets the logger.
+            </summary>
+            <param name="type">The type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogFactory.GetLogger(System.String)">
+            <summary>
+            Gets the logger.
+            </summary>
+            <param name="typeName">Name of the type.</param>
+            <returns></returns>
+        </member>
+        <member name="T:ServiceStack.Logging.Serilog.SerilogLogger">
+            <summary>
+            Implementation of <see cref="T:ServiceStack.Logging.ILog"/> for <see cref="N:ServiceStack.Logging.Serilog"/>.
+            </summary>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ServiceStack.Logging.Serilog.SerilogLogger"/> class.
+            </summary>
+            <param name="type">The <see cref="T:System.Type"/>.</param>
+        </member>
+        <member name="P:ServiceStack.Logging.Serilog.SerilogLogger.IsDebugEnabled">
+            <summary>
+            Gets a value indicating if Debug messages are enabled.
+            </summary>
+        </member>
+        <member name="P:ServiceStack.Logging.Serilog.SerilogLogger.IsInfoEnabled">
+            <summary>
+            Gets a value indicating if Info messages are enabled.
+            </summary>
+        </member>
+        <member name="P:ServiceStack.Logging.Serilog.SerilogLogger.IsWarnEnabled">
+            <summary>
+            Gets a value indicating if Warning messages are enabled.
+            </summary>
+        </member>
+        <member name="P:ServiceStack.Logging.Serilog.SerilogLogger.IsErrorEnabled">
+            <summary>
+            Gets a value indicating if Error messages are enabled.
+            </summary>
+        </member>
+        <member name="P:ServiceStack.Logging.Serilog.SerilogLogger.IsFatalEnabled">
+            <summary>
+            Gets a value indicating if Fatal messages are enabled.
+            </summary>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Debug(System.Object)">
+            <summary>
+            Logs a Debug message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Debug(System.Object,System.Exception)">
+            <summary>
+            Logs a Debug message and exception.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Debug(System.Exception,System.String,System.Object[])">
+            <summary>
+            Logs a Debug message and exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <param name="messageTemplate">The serilog message template.</param>
+            <param name="propertyValues">The property values</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.DebugFormat(System.String,System.Object[])">
+            <summary>
+            Logs a Debug format message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Error(System.Object)">
+            <summary>
+            Logs a Error message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Error(System.Object,System.Exception)">
+            <summary>
+            Logs a Error message and exception.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Error(System.Exception,System.String,System.Object[])">
+            <summary>
+            Logs a Error message and exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <param name="messageTemplate">The message template.</param>
+            <param name="propertyValues">The property values</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.ErrorFormat(System.String,System.Object[])">
+            <summary>
+            Logs a Error format message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Fatal(System.Object)">
+            <summary>
+            Logs a Fatal message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Fatal(System.Object,System.Exception)">
+            <summary>
+            Logs a Fatal message and exception.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Fatal(System.Exception,System.String,System.Object[])">
+            <summary>
+            Logs a Fatal message and exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <param name="messageTemplate">The message template.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.FatalFormat(System.String,System.Object[])">
+            <summary>
+            Logs a Fatal format message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Info(System.Object)">
+            <summary>
+            Logs a Info message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Info(System.Object,System.Exception)">
+            <summary>
+            Logs a Info message and exception.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Info(System.Exception,System.String,System.Object[])">
+            <summary>
+            Logs a Info message and exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <param name="messageTemplate">The message template.</param>
+            <param name="propertyValues">The property values</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.InfoFormat(System.String,System.Object[])">
+            <summary>
+            Logs a Info format message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.PushProperty(System.String,System.Object)">
+            <summary>
+            Dynamically add and remove properties from the ambient "execution context"
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <returns></returns>
+            <remarks>
+            Must install package: Serilog.Enrichers.Thread
+            Must enable enricher: var log = new LoggerConfiguration().Enrich.FromLogContext()
+            </remarks>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Warn(System.Object)">
+            <summary>
+            Logs a Warning message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Warn(System.Object,System.Exception)">
+            <summary>
+            Logs a Warning message and exception.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.Warn(System.Exception,System.String,System.Object[])">
+            <summary>
+            Logs a Warning message and exception.
+            </summary>
+            <param name="exception">The exception.</param>
+            <param name="messageTemplate">The message template.</param>
+            <param name="propertyValues">The property values</param>
+        </member>
+        <member name="M:ServiceStack.Logging.Serilog.SerilogLogger.WarnFormat(System.String,System.Object[])">
+            <summary>
+            Logs a Warning format message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+    </members>
+</doc>
