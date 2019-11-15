@@ -11,7 +11,6 @@ namespace T4
     {
         static void Main(string[] args)
         {
-
             MyDbContext db = new MyDbContext();
             var ss=db.Database.BeginTransaction();
             

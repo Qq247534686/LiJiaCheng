@@ -1,0 +1,7 @@
+D:\LiJiaCheng\LiJiaCheng\WebServerClient\obj\Debug\WebServerClient.csproj.CoreCompileInputs.cache
+D:\LiJiaCheng\LiJiaCheng\WebServerClient\bin\Debug\WebServerClient.exe.config
+D:\LiJiaCheng\LiJiaCheng\WebServerClient\bin\Debug\WebServerClient.exe
+D:\LiJiaCheng\LiJiaCheng\WebServerClient\bin\Debug\WebServerClient.pdb
+D:\LiJiaCheng\LiJiaCheng\WebServerClient\obj\Debug\WebServerClient.exe
+D:\LiJiaCheng\LiJiaCheng\WebServerClient\obj\Debug\WebServerClient.pdb
+D:\LiJiaCheng\LiJiaCheng\WebServerClient\obj\Debug\WebServerClient.csprojAssemblyReference.cache
