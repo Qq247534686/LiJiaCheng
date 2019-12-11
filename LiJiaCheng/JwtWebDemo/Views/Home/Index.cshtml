@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <input id="Button1" type="button" value="加密" />
+    <input id="Button2" type="button" value="解密" />
+    <script>
+        $(function () {
+            $('#Button1').click(function () {
+                $.get("/Home/JiaMi", function (result) {
+                    alert(result);
+                })
+            })
+            $('#Button2').click(function () {
+                $.get("/Home/JieMi", function (result) {
+                    alert(result);
+                })
+            })
+
+
+
+
+
+
+
+        })
+    </script>
+</body>
+</html>
