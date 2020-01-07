@@ -1,0 +1,116 @@
+﻿[
+  {
+    "menuName": "最外层1",
+    "menuId": "A",
+    "parentId": 0,
+    "url": "",
+    "isMenu": 0,
+    "childrens": [
+      {
+        "menuName": "A外层1",
+        "menuId": "A1",
+        "parentId": "A",
+        "isMenu": 0,
+        "url": "",
+        "childrens": [
+          {
+            "menuName": "A1外层1",
+            "menuId": "A1-1",
+            "isMenu": 1,
+            "url": "",
+            "parentId": "A1",
+            "childrens": []
+          },
+          {
+            "menuName": "A1外层2",
+            "menuId": "A1-2",
+            "parentId": "A1",
+            "isMenu": 1,
+            "url": "",
+            "childrens": []
+          }
+        ]
+      },
+      {
+        "menuName": "A外层2",
+        "menuId": "A2",
+        "isMenu": 1,
+        "url": "",
+        "parentId": "A",
+        "childrens": []
+      },
+      {
+        "menuName": "A外层3",
+        "menuId": "A3",
+        "isMenu": 1,
+        "url": "",
+        "parentId": "A",
+        "childrens": []
+      }
+    ]
+  },
+  {
+    "menuName": "最外层2",
+    "menuId": "B",
+    "isMenu": 0,
+    "parentId": 0,
+    "childrens": [
+      {
+        "menuName": "B外层1",
+        "menuId": "B1",
+        "parentId": "B",
+        "isMenu": 1,
+        "url": "http://www.shouce.ren/doc/underscore",
+        "childrens": []
+      },
+      {
+        "menuName": "B外层2",
+        "menuId": "B2",
+        "isMenu": 1,
+        "url": "https://tool.lu/js/",
+        "parentId": "B",
+        "childrens": []
+      },
+      {
+        "menuName": "B外层3",
+        "menuId": "B3",
+        "isMenu": 1,
+        "url": "https://tool.oschina.net/commons/",
+        "parentId": "B",
+        "childrens": []
+      }
+    ]
+  },
+  {
+    "menuName": "最外层3",
+    "menuId": "C",
+    "parentId": 0,
+    "url": "",
+    "isMenu": 0,
+    "childrens": []
+  },
+  {
+    "menuName": "最外层4",
+    "menuId": "D",
+    "parentId": 0,
+    "isMenu": 0,
+    "url": "",
+    "childrens": []
+  },
+  {
+    "menuName": "最外层5",
+    "menuId": "E",
+    "parentId": 0,
+    "isMenu": 0,
+    "url": "",
+    "childrens": []
+  },
+  {
+    "menuName": "最外层6",
+    "menuId": "F",
+    "parentId": 0,
+    "isMenu": 0,
+    "url": "",
+    "childrens": []
+  }
+]

@@ -498,6 +498,7 @@
     <Content Include="Content\framework7\js\framework7.min.js" />
     <Content Include="Content\framework7\js\my-app.js" />
     <Content Include="Content\framework7\less\plugin.js" />
+    <Content Include="Content\framework7\modules\app\about.js" />
     <Content Include="Content\framework7\modules\clicks\clicks.js" />
     <Content Include="Content\framework7\modules\component\component-class.js" />
     <Content Include="Content\framework7\modules\component\component-mixins.js" />
@@ -558,6 +559,13 @@
     <Content Include="Content\framework7\utils\support.js" />
     <Content Include="Content\framework7\utils\utils.js" />
     <Content Include="Global.asax" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Content\plug\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\r.js" />
+    <Content Include="Content\plug\require.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -973,6 +981,8 @@
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

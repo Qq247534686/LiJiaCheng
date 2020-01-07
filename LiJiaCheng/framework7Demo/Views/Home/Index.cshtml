@@ -70,5 +70,17 @@
     <script src="~/Content/framework7/js/framework7.bundle.min.js"></script>
     <!-- Path to your app js-->
     <script src="~/Content/framework7/js/my-app.js"></script>
+    <script src="~/Content/plug/require.js"></script>
+    <script>
+        requirejs.config({
+            //设置项目路径，项目会以baseUrl作为相对路径去查找模块文件
+            baseUrl: "../../Content/plug",
+            //预加载JS文件的配置项，默认可不用添加.js后缀
+            paths: {
+                //RequireJS默认假定所有的依赖资源都是JS脚本，因此无需再module ID上再加上js后缀。
+                jquery: "jquery-3.4.1.min"
+            }
+        });
+    </script>
 </body>
 </html>
