@@ -19,7 +19,7 @@ function addTab(options) {
 
 
         //固定TAB中IFRAME高度
-        mainHeight = $(document.body).height() - 210;
+        mainHeight = $(document.body).height() - 215;
 
         var content = '';
         if (options.content) {
@@ -29,6 +29,8 @@ function addTab(options) {
         }
         //$("#" + options.tabContentMainName + ' .tab-pane').removeClass('active');
         $("#" + options.tabContentMainName).append('<div class="tab-pane active" id="tab_content_' + options.tabName + '" role="tabpanel" aria-expanded="false" style="height:100%;">' + content + '</div >');
+
+        mApp.block("#tab_content_" + options.tabName, { overlayColor: "#000000", type: "loader", state: "success", size: "lg" }), setTimeout(function () { mApp.unblock("#tab_content_" + options.tabName) }, 1000)
         $("#tab_a_" + options.tabName).click();
     }
 }

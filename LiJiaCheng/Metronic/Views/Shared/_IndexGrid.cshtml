@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<!--
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 4
+Version: 5.0.3
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en">
+<!-- begin::Head -->
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Metronic | Dashboard
+    </title>
+    <meta name="description" content="Latest updates and statistic charts">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="~/Content/assets/vendors/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+    <!--end::Page Vendors -->
+    <link href="~/Content/assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
+    <!--end::Base Styles -->
+    <link rel="shortcut icon" href="~/Content/assets/demo/default/media/img/logo/favicon.ico" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/DataTables/datatables.css" rel="stylesheet" />
+    <link href="~/Content/DataTables/DataTables-1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="~/Content/custom/css/datatablesExt.css?@Guid.NewGuid()" rel="stylesheet" />
+
+    @RenderSection("css", false)
+</head>
+<body style="padding:5px 5px 0px 5px;">
+    @RenderBody()
+    <script src="~/Scripts/jquery-3.3.1.js.js"></script>
+    <script src="~/Content/DataTables/datatables.min.js"></script>
+    <script src="~/Content/DataTables/DataTables-1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="~/Content/DataTables/DataTables-1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/Content/custom/js/datatablesExt.js?@Guid.NewGuid()"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+    @RenderSection("script", false)
+
+</body>
+</html>

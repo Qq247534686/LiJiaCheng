@@ -1,0 +1,14 @@
+﻿.dataTables_info {
+    display: inline-block;
+    width: 300px;
+}
+
+.dataTables_length {
+    display: inline-block;
+}
+
+.dataTables_paginate {
+    margin-top: 5px;
+    width: 300px;
+    float: right;
+}
