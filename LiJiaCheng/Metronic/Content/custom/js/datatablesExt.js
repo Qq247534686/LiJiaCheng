@@ -22,3 +22,24 @@
         "sSortDescending": ": 以降序排列此列"
     }
 };
+
+
+$.fn.extend({
+    bindTable: function (option) {
+        var defauleOption = {
+            dom: "",//布局
+            processing: true,//显示加载进度
+            serverSide: true,
+            ajax: {
+                url: "",
+                type:""
+            },
+            dataSrc: function (json) {
+                return json;
+            }
+        };
+        $.extend(defauleOption, option);
+        $(this).DataTable(defauleOption);
+    },
+
+});

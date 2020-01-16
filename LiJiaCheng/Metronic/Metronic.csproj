@@ -46,7 +46,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DataTables.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\datatables.mvc5.0.1.0\lib\net45\DataTables.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PetaPoco, Version=6.0.446.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PetaPoco.Compiled.6.0.446-beta\lib\net45\PetaPoco.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -879,6 +885,16 @@
     <Content Include="Views\Shared\Parts\_LeftMenuPage.cshtml" />
     <Content Include="Views\Shared\_Index.cshtml" />
     <Content Include="Views\Home\MainBody.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Metronic.Entity\Metronic.Entity.csproj">
+      <Project>{6abdea04-64f7-4651-97fa-e7e11c5bb54c}</Project>
+      <Name>Metronic.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Metronic.Service\Metronic.Service.csproj">
+      <Project>{75a76d13-44e0-4a81-bc17-4ae43180f5c1}</Project>
+      <Name>Metronic.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

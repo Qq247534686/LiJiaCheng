@@ -1,0 +1,8 @@
+E:\LiJiaCheng\LiJiaCheng\Metronic.Service\bin\Debug\Metronic.Service.dll.config
+E:\LiJiaCheng\LiJiaCheng\Metronic.Service\bin\Debug\Metronic.Service.dll
+E:\LiJiaCheng\LiJiaCheng\Metronic.Service\bin\Debug\Metronic.Service.pdb
+E:\LiJiaCheng\LiJiaCheng\Metronic.Service\bin\Debug\PetaPoco.dll
+E:\LiJiaCheng\LiJiaCheng\Metronic.Service\obj\Debug\Metronic.Service.csproj.CoreCompileInputs.cache
+E:\LiJiaCheng\LiJiaCheng\Metronic.Service\obj\Debug\Metronic.Service.csproj.CopyComplete
+E:\LiJiaCheng\LiJiaCheng\Metronic.Service\obj\Debug\Metronic.Service.dll
+E:\LiJiaCheng\LiJiaCheng\Metronic.Service\obj\Debug\Metronic.Service.pdb
