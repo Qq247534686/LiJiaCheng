@@ -19,8 +19,9 @@ $.fn.extend({
                         //    token: 'tokenvalue'
                         //},
                         //timeout: 30000,//请求结束之前的毫秒数。默认值为30000，等于30秒。
-                        url: 'inc/api/datatables/demos/default.php',//请求地址
+                        url: '',//请求地址
                         map: function (raw) {//自定义将接收到的数据映射到数据表网格中。
+                            console.log(raw)
                             var dataSet = raw;
                             if (typeof raw.data !== 'undefined') {
                                 dataSet = raw.data;
