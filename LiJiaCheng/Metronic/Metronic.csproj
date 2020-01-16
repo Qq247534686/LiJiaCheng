@@ -350,6 +350,7 @@
     <Content Include="Content\assets\vendors\custom\jqvmap\jqvmap.bundle.js" />
     <Content Include="Content\custom\css\datatablesExt.css" />
     <Content Include="Content\custom\css\myApp.css" />
+    <Content Include="Content\custom\js\kt_dataTables.js" />
     <Content Include="Content\custom\js\tabs.js" />
     <Content Include="Content\DataTables\AutoFill-2.3.4\css\autoFill.bootstrap.css" />
     <Content Include="Content\DataTables\AutoFill-2.3.4\css\autoFill.bootstrap.min.css" />
@@ -806,7 +807,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Shared\_IndexGrid.cshtml" />
+    <Content Include="Views\Shared\_IndexDatatables.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
