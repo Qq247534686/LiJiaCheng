@@ -23,7 +23,6 @@
     }
 };
 
-
 $.fn.extend({
     bindTable: function (option) {
         var defauleOption = {
